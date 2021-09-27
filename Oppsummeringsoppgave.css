@@ -1,0 +1,44 @@
+/*Dette setter youtube vidioen i midten av siden*/
+iframe{
+    display: block;
+        
+    position: absolute;
+    top: 50%;
+    left: 50.50%;
+    transform: translate(-50% , -50.50%);
+                
+}
+
+/*Dette setter bildet på høyre side av youtube vidioen.*/
+img{
+    display: block;
+
+    position: relative;
+    float: right;
+}
+
+/*Dette gjør at alt teksten som man ser på siden som er i "form", hvit*/
+form{
+    color: white;
+}
+
+/*Dette gjør at alt teksten som man ser på siden som er i "h1", svart*/
+h1{
+    color: black;
+}
+
+
+/*Dette gjør at alt teksten som man ser på siden som er i "h3", lyseblå*/
+h3{
+    color: lightblue;
+}
+
+/*Dette gjør at alt teksten som man ser på siden som er i "h4", hvit*/
+h4{
+    color: white;
+}
+
+/*Dette gjør at alt teksten som man ser på siden som er i "ul", hvit*/
+ul{
+    color: white;
+}

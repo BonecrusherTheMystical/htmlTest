@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="Oppsummeringsoppgave.css">
+    <h1>Megumin from konosuba</h1>
+<style>
+/*Dette gjør at jeg får bildet MeguminsExsplosion som et bakgrunsbilde på siden min*/
+    body {
+        background-image: url('Bilder/MeguminExsplosion.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+} 
+
+</style>
+</head>
+
+<body>
+    <!--Dette setter inn youtube vidioen på siden-->
+    <iframe
+
+    width="500"
+    height="300"
+    src="https://www.youtube.com/embed/fIgm6lxvUfQ"
+    title="YouTube video player"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen>
+
+</iframe>
+<!--Dette setter inn lydfilen på siden-->
+<audio controls autoplay loop>
+    <source src="Lydfiler/Megumin explosion.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+
+    <!--Dette setter inn bildet MeguminExsplosion på siden-->
+    <img src="Bilder/MeguminExsplosion 2.jpg" 
+    height="250px">
+
+    <!--Dette setter in en knapp man kan trykke på for å komme til konosuba fandom-->
+    <form action="https://konosuba.fandom.com/wiki/Megumin">
+        <input type="submit" value="Go to konosuba fandom" />
+</form>
+
+<h3>Main characters in KonoSuba</h3>
+<ul>
+    <li>Megumin</li>
+    <li>Darkness</li>
+    <li>Aqua</li>
+    <li>Satou Kazuma</li>
+  </ul> 
+
+  <h4>Which character do you like the most?</h4>
+<form>
+        <input type="radio" id="Megumin" name="size" value="Megumin">
+        <label for="Megumin">Megumin</label><br>
+        <input type="radio" id="Darkness" name="size" value="Darkness">
+        <label for="Darkness">Darkness</label><br>
+        <input type="radio" id="Aqua" name="size" value="Aqua">
+        <label for="Aqua">Aqua</label><br>
+        <input type="radio" id="Satou Kazuma" name="size" value="Satou Kazuma">
+        <label for="Satou Kazuma">Satou Kazuma</label><br>
+        <button type="submit">submit</button>
+    </form> 
+
+</body>
+</html>
